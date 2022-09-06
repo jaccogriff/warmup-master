@@ -1,0 +1,145 @@
+products:
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\AllTests$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\AllTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\AverageGradeTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\CollatzLengthTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\DiamondStringTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\EloScoresTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\IndexOfMaxTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\CustomReporter.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReportFraction$$anon$1.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReportFraction$$anon$2.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReportFraction$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReportFraction.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ScoreCounter.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\StopRunningNow.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReallyStopSignaler$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\ReallyStopSignaler.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\infrastructure\TestBase.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\MergeSortedArraysTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\MergeSortTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\SpeedOffendersTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\SplitArraysTests.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\test\warmup\WordCountTests.class
+binary dependencies:
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalactic\scalactic_2.13\3.0.9\4a329d00a82630f56332d9c31a6a9ecd078655ae\scalactic_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scalatest\scalatest_2.13\3.0.9\7f61bc9494ad925e6f40724f8997e2c45105cacb\scalatest_2.13-3.0.9.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+source dependencies:
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala
+external dependencies:
+class names:
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> warmup.AllTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AllTests.scala -> warmup.AllTests$
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\AverageGradeTests.scala -> warmup.AverageGradeTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\CollatzLengthTests.scala -> warmup.CollatzLengthTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\DiamondStringTests.scala -> warmup.DiamondStringTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\EloScoresTests.scala -> warmup.EloScoresTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\IndexOfMaxTests.scala -> warmup.IndexOfMaxTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> warmup.infrastructure.CustomReporter
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> warmup.infrastructure.ReportFraction
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> warmup.infrastructure.ReportFraction$
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> warmup.infrastructure.ReportFraction$$anon$1
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ReportFraction.scala -> warmup.infrastructure.ReportFraction$$anon$2
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\ScoreCounter.scala -> warmup.infrastructure.ScoreCounter
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\StopRunningNow.java -> warmup.infrastructure.StopRunningNow
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> warmup.infrastructure.ReallyStopSignaler
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> warmup.infrastructure.ReallyStopSignaler$
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\infrastructure\TestBase.scala -> warmup.infrastructure.TestBase
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortedArraysTests.scala -> warmup.MergeSortedArraysTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\MergeSortTests.scala -> warmup.MergeSortTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SpeedOffendersTests.scala -> warmup.SpeedOffendersTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\SplitArraysTests.scala -> warmup.SplitArraysTests
+   C:\Users\Jacco\Documents\Uni\warmup-master\test\warmup\WordCountTests.scala -> warmup.WordCountTests

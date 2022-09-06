@@ -1,0 +1,27 @@
+products:
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Game.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Observation$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Observation.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Player.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$SpeedOffender$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$SpeedOffender.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Time$.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises$Time.class
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\Documents\Uni\warmup-master\build\classes\scala\main\warmup\Exercises.class
+binary dependencies:
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Program Files\Eclipse Adoptium\jdk-8.0.345.1-hotspot\jre\lib\rt.jar
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> C:\Users\Jacco\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.8\5a865f03a794b27e6491740c4c419a19e4511a3d\scala-library-2.13.8.jar
+source dependencies:
+external dependencies:
+class names:
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Game
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Observation
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Observation$
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Player
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$SpeedOffender
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$SpeedOffender$
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Time
+   C:\Users\Jacco\Documents\Uni\warmup-master\src\warmup\Exercises.scala -> warmup.Exercises$Time$
