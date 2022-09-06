@@ -3,6 +3,7 @@ package warmup
 
 import scala.collection.mutable
 import scala.collection.mutable.{ArrayBuffer, ListBuffer, Map}
+import scala.util.control.Breaks.{break, breakable}
 
 object Exercises {
 
@@ -25,7 +26,16 @@ object Exercises {
 
    */
   def indexOfMax(a : Array[Int]) : Int = {
-   0
+    if (a.isEmpty) return -1 //TODO: is this legal?
+
+    var maxIndex : Int = 0
+    for (i <- 0 to a.length - 1){
+      if ( a(i) > a(maxIndex) )
+        maxIndex = i
+    }
+
+    return maxIndex
+
   }
 
 
@@ -46,7 +56,21 @@ object Exercises {
   Indication of solution length : 9 lines
    */
   def averageGrade(grades : String) : Double = {
-    0
+    // was gonna delete the ns from the array but then i couldnt so i did this one
+    var gradesArray : Array[String] = grades.split(" ")
+    var sum : Double = 0
+    var actualGrades: Int = 0
+    for (grade <- gradesArray){
+      breakable{
+        if (grade == "NS") {
+          break
+        } else {
+          sum += grade.toDouble
+          actualGrades += 1
+        }
+      }
+    }
+    return sum/actualGrades
   }
 
     /* Assignment 3:
@@ -85,7 +109,20 @@ object Exercises {
 
 
   def collatzLength(start : Long) : Long = {
-    0
+    var next : Long = start
+    var count : Long = 0
+
+    while (next != 1){
+      if (next % 2 == 0) {
+        next /= 2
+      }
+      else {
+        next = (3 * next) + 1
+      }
+      count += 1
+    }
+
+    return count
   }
 
 
