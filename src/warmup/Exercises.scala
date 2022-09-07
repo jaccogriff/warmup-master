@@ -63,7 +63,7 @@ object Exercises {
     for (grade <- gradesArray){
       breakable{
         if (grade == "NS") {
-          break
+          //break
         } else {
           sum += grade.toDouble
           actualGrades += 1
@@ -153,6 +153,7 @@ Diamond of height 12
     ###
      #
 
+
  (You can use multiplication on strings: "ab" * 3 -> "ababab")
 
 Note that the last character of each line should be # and that hence the line should not end in spaces.
@@ -162,7 +163,45 @@ Indication of length : 12 lines
 
 
   def diamondString(height : Int) : String = {
-    ""
+    var numOfChars : Int = 1
+    var numOfSpaces : Int = (height/2).toInt
+    var maxNumOfChars : Int = height
+    var diamond : String = ""
+    var isEven : Boolean = height % 2 == 0
+
+    if (isEven){
+      maxNumOfChars -= 1
+      numOfSpaces -= 1
+    }
+
+    while (numOfChars <= maxNumOfChars){
+      diamond += " " * numOfSpaces
+      diamond += "#" * numOfChars
+      diamond += "\n"
+
+      numOfSpaces -= 1
+      numOfChars += 2
+    }
+
+    if (isEven) {
+      numOfSpaces += 1
+      numOfChars -= 2
+    }
+    else {
+      numOfSpaces += 2
+      numOfChars -= 4
+    }
+
+    while (numOfChars >= 1) {
+      diamond += " " * numOfSpaces
+      diamond += "#" * numOfChars
+      diamond += "\n"
+
+      numOfSpaces += 1
+      numOfChars -= 2
+    }
+
+    return diamond
   }
 
 
@@ -194,7 +233,18 @@ Indication of length : 7 lines
 
 
   def wordCount(text : String) : mutable.Map[String,Int] = {
-    mutable.Map[String,Int]()
+    var wordCountByWord = mutable.Map[String,Int]()
+    var words : Array[String] = text.toLowerCase().split("(\\s|\\.|,|!)+")
+
+    for (aWord <- words){
+      if ( wordCountByWord.contains(aWord) ){
+        wordCountByWord(aWord) += 1
+      }
+      else {
+        wordCountByWord(aWord) = 1
+      }
+    }
+    return wordCountByWord
   }
 
 
