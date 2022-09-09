@@ -26,7 +26,7 @@
 /jenkins.properties
 
 # target directory for build
-/build/**
+/build/
 
 # other
 /out/
