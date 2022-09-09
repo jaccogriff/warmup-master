@@ -280,7 +280,7 @@ Indication of length : 7 lines
 
 When playing a tournament, the elo rates are kept fixed during the tournament, and are updated afterwards based on all
 the games that were played. The elo score change of each player A is the sum of all the elo rate deltas from the individual
-that A played. The elo scores used when computing these deltas are the elo scores from _before_ the tournament.
+that A played. The elo scores used when computing these delta2200 - 18.24 = 2181.76s are the elo scores from _before_ the tournament.
 
   Program a method which updates the elo ratings of all players. You can (and should) add method to classes below.
 
@@ -300,11 +300,27 @@ Indication of length 12 added lines
   val eloK = 24
 
   def updateEloScores(players : List[Player] , games : List[Game]) : Unit = {
+
+    for (aGame <- games){
+      val eA : Double = aGame.calculateProbability()
+      val eB : Double = 1 - eA
+      val drB : Double = aGame.calculalteChange(eB)
+      val drA : Double = drB * -1
+
+      aGame.playerA.tournamentRating += drA
+      aGame.playerB.tournamentRating += drB
+    }
+
+    for (aPlayer <- players) {
+      aPlayer.rating += aPlayer.tournamentRating
+    }
   }
 
   class Player(
                 val name : String,
-                var rating : Double) {
+                var rating : Double,
+                var tournamentRating: Double = 0
+              ) {
   }
 
   class Game(
@@ -313,6 +329,15 @@ Indication of length 12 added lines
               val outcome : Double, // 0 means playerA won, 1 means playerB won, 0.5 means draw
             )
   {
+    def calculateProbability(): Double = {
+      return 1 / (1 + scala.math.pow(10, ((playerB.rating - playerA.rating) / 400)))
+    }
+
+
+    def calculalteChange(probability : Double) : Double = {
+      return eloK * (outcome - probability)
+    }
+
   }
 
   /* Assignment 7: List speed offenders.
@@ -344,13 +369,25 @@ Indication of length: 25 added lines. Add extra functions for conceptually defin
 
   // The used epoch is 1 January 1970. An epoch is an instant in time chosen as the origin of a time scale.
   // (see https://en.wikipedia.org/wiki/Epoch)
-  case class Time(daysSinceEpoch : Int, hours : Int, minutes : Int, seconds : Double)
+  case class Time(daysSinceEpoch : Int, hours : Int, minutes : Int, seconds : Double) {
+
+    def - (that : Time) = {
+      this.hours -= that.hours
+      this.hours -= that.hours
+      this.seconds -= that.seconds
+    }
+  }
   // case class means (among other things) that you do not have to type new to create one
   // so instead of new Time(43,6,3,0) you just type Time(43,6,3,0)
   // equality and pretty printing are also defined for you
 
 
-  case class Observation(cameraSet : String, licensePlate : String, time : Time )
+  case class Observation(cameraSet : String, licensePlate : String, time : Time ) {
+
+    def isAboveSpeedLimit(bTime : Time) : Boolean = {
+      var timeBetweenCameras : Time = bTime
+    }
+  }
 
   // to convert your speed of type double to an Int use Math.round(speed).toInt
   case class SpeedOffender(licensePlate : String, speed : Int)
@@ -358,8 +395,19 @@ Indication of length: 25 added lines. Add extra functions for conceptually defin
   def speedOffenders(observations: Seq[Observation]) : ArrayBuffer[SpeedOffender] = {
     val startTimeOfCar : mutable.Map[String,Time] = new mutable.HashMap()
     val result :  ArrayBuffer[SpeedOffender] = new ArrayBuffer()
+
     for(observation <- observations) {
-      // use result += elem to add elem
+      if (observation.cameraSet == "A"){
+        startTimeOfCar(observation.licensePlate) = observation.time
+      } else {
+        startTimeOfCar(observation.licensePlate)
+      }
+    }
+
+    for (observation <- observations) {
+      if (observation.cameraSet == "B"){
+
+      }
     }
 
     result
@@ -385,7 +433,23 @@ Indication of length: 12 lines
 
    */
   def splitArray(a : Array[Int]) : (Array[Int],Array[Int]) = {
-    null
+    var lengthOfA : Int = a.length/2
+    var lengthOfB : Int = a.length - lengthOfA
+
+    var arrayA : Array[Int] = new Array[Int](lengthOfA)
+    var arrayB : Array[Int] = new Array[Int](lengthOfB)
+
+    for (i <- 0 to lengthOfA - 1){
+      arrayA(i) = a(i)
+    }
+    var j : Int = 0
+    for (i <- lengthOfA to a.length - 1) {
+      arrayB(j) = a(i)
+      j += 1
+    }
+
+    return (arrayA, arrayB)
+
   }
 
 
@@ -424,7 +488,32 @@ Indication of length: 12 lines
 Indication of length: 15 lines
    */
   def mergeSortedArrays(a : Array[Int], b : Array[Int]) : Array[Int] = {
-    return null
+    var j : Int = 0
+    var i : Int = 0
+    var mergedArray :Array[Int] = new Array[Int](a.length + b.length)
+    var jHasReachedEnd : Boolean = false
+    var iHasReachedEnd : Boolean = false
+
+    for ( k <- 0 until mergedArray.length){
+
+      if ( (a(i) <= b(j) || jHasReachedEnd) && !iHasReachedEnd ) {
+        mergedArray(k) = a(i)
+        if (i < a.length - 1) {
+          i += 1
+        } else {
+          iHasReachedEnd = true
+        }
+      } else if ( (b(j) < a(i) || iHasReachedEnd) && !jHasReachedEnd ) {
+        mergedArray(k) = b(j)
+        if (j < b.length - 1) {
+          j += 1
+        } else {
+          jHasReachedEnd = true
+        }
+      }
+    }
+
+    return mergedArray
   }
 
 
@@ -456,7 +545,12 @@ Indication of length: 5 lines
    */
 
   def mergeSort(a : Array[Int]) : Array[Int] = {
-    null
+    if (a.length <= 1) return a
+
+    var halves : (Array[Int], Array[Int]) = splitArray(a)
+
+    return mergeSortedArrays( mergeSort(halves._1), mergeSort(halves._2) )
+
   }
 
 
